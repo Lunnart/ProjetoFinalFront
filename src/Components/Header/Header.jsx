@@ -12,7 +12,7 @@ const Header = () => {
         <img src={logo} alt="" height="44px" width="253"/>
         <form className="form-header">
             <input type="text" id="text" name="Pesquisar" placeholder="Pesquisar produto..." className='text-light-gray h-12'/>
-            <button className="bg-white h-12 flex">
+            <button className="bg-white h-12 flex justify-end items-center">
               <FaSearch color='gray'/>
             </button>
         </form>
