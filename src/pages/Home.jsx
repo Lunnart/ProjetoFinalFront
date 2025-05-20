@@ -1,8 +1,15 @@
+
 import React from 'react'
 
 const Home = () => {
   return (
-    <div>Página Home</div>
+    <>
+     <div>Carrossel</div>
+     <div>Cards coleção</div>
+     <div>Categoria</div>
+     <div>Produto Listing</div>
+     <div>Oferta Especial</div>
+    </>
   )
 }
 
