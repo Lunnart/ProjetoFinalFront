@@ -1,0 +1,24 @@
+
+*{
+    background-color: #F5F5F5;
+}
+
+.elemento {
+  background-color: transparent; /* Torna o fundo do elemento transparente */
+}
+
+h4 {
+    color: #F6AA1C;
+}
+h1 {
+    color:#1F1F1F;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+}
+h3 {
+    color: #474747;
+}
+
+img {
+    background-color: transparent;
+}

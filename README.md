@@ -1,6 +1,6 @@
-# React + Vite
+# Projeto Final Front
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é resultante do programa Geração Tech 2.0 atraves dos ensinamentos de nossa professora Nayara Calenzo e nosso monitor Júlio.
 
 Currently, two official plugins are available:
 

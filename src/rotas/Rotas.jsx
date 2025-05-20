@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Layout from '../components/Layout.jsx'
+import Layout from '../Components/Layout.jsx'
 import Home from '../pages/Home.jsx'
 import ProductListingPage from '../pages/ProductListingPage.jsx'
 import ProductViewPage from '../pages/ProductViewPage.jsx'
