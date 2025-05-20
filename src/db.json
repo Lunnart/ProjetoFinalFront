@@ -1,0 +1,11 @@
+{
+   "posts" : [ 
+    { "id" : " 1 " , "title" : " um título " , "views" : 100 }, 
+    { "id" : " 2 " , "title" : " outro título " , "views" : 200 } 
+  ], "comments" : [ 
+    { "id" : " 1 " , "text" : " um comentário sobre a postagem 1 " , "postId" : " 1 " }, 
+    { "id" : " 2 " , "text" : " outro comentário sobre a postagem 1 " , "postId" : " 1 " } 
+  ], "profile" : {
+     "name" : " typicode " 
+  } 
+}
