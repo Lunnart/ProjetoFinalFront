@@ -16,8 +16,8 @@ const Header = () => {
               <FaSearch color='gray'/>
             </button>
         </form>
-        <label  className="text-light-gray" for="text"><a href="#Cadastro">Cadastre-se</a></label>
-        <button className=""         type="button" onclick="alert('Produtos')">Entrar</button>
+        <label  className="text-light-gray" htmlFor="text"><a href="#Cadastro">Cadastre-se</a></label>
+        <button className=""         type="button" >Entrar</button>
          {/* <a href="#" className="button">Entrar</a> */}
         <img src={carrinho} alt="carrinho"/>
     </div>
