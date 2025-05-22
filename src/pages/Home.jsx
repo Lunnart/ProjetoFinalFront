@@ -1,15 +1,13 @@
-
-import Carrousel from '../components/carrousel'
-
+import Carrosel from '../Components/Carrosel'
 
 const Home = () => {
   return (
     <>
-    <Carrousel/>
-      <div>Cards coleção</div>
-      <div>Categoria</div>
-      <div>Produto Listing</div>
-      <div>Oferta Especial</div>
+     <Carrosel/>
+     <div>Cards coleção</div>
+     <div>Categoria</div>
+     <div>Produto Listing</div>
+     <div>Oferta Especial</div>
     </>
   )
 }
