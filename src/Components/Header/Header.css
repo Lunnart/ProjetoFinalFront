@@ -1,35 +1,10 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    /* border: 1px solid red; */
 
-}
-.coluna {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
 
-body {
-    display: block;
-    justify-items: space;
-    align-items: gap;
-    background-color: #FFF;
-    /*como botar espaçamento entre os itens? (Duvidas!!!)*/
 
-}
-.p1 {
-    display: flex;
-    justify-content: space-around;
-    margin: 40px 30px;
-    color: #FFFF;
 
-}
+
 /* mouse over link */
-a:hover {
-    color: #C92071;
-    text-decoration:underline;
-  }
+
 .nav {
     margin-left: 10px;
     padding: 15px 72px 15px 49px;
