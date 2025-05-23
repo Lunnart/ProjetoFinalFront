@@ -1,10 +1,11 @@
 
 import React from 'react'
+import Carrosel from '../Components/Carrosel'
 
 const Home = () => {
   return (
     <>
-     <div>Carrossel</div>
+     <Carrosel/>
      <div>Cards coleção</div>
      <div>Categoria</div>
      <div>Produto Listing</div>
