@@ -5,6 +5,7 @@ import logo from "../../assets/logo.png"
 import { FaSearch } from 'react-icons/fa'
 
 
+
 const Header = () => {
   return (
     <div>
@@ -26,7 +27,7 @@ const Header = () => {
     <div className="nav">
 
         <nav>
-            <ul className="header">
+            <ul className="header ml-[10] p-[15 72 15 49] font-medium">
                 <li><a className='hover:underline text-primary' href="#Home">Home</a></li>
                 <li><a className='hover:underline text-primary'href="#Produtos">Produtos</a></li>
                 <li><a className='hover:underline text-primary' href="#Categorias">Categorias</a></li>
