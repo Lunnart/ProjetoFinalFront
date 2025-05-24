@@ -5,7 +5,7 @@ import logo from "../../assets/logo.png"
 import { FaSearch } from 'react-icons/fa'
 
 const Header = () => {
-  return (
+      return (
     <div>
         <header>
     <div className="p1">
