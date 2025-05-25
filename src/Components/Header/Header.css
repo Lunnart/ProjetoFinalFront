@@ -1,55 +1,9 @@
-/* mouse over link */
 
-.nav {
-    margin-left: 10px;
-    padding: 15px 72px 15px 49px;
-    font-weight: 500;
-}
-
-
-
-
-
-
-
-label {
-    display: flex;
-}
-
-/* align-items: center;
-} */
-
-label>a {
-    color: rgb(63, 61, 61);
-    text-decoration: underline;
-}
-
-.a:hover {
-    color: #C92071;
-    text-decoration: underline;
-}
-
-ul.header {
-    color: lightgray;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    gap: 36px;
-
-}
-
-/* mouse over link */
+/* 
 a:hover {
     color: #C92071;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 
-}
-
-a:hover {
-    color: #C92071;
-    background-color: transparent;
-    text-decoration: underline;
-}
 
 li>a {
     color: gray;

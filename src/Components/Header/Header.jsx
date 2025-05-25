@@ -6,6 +6,7 @@ import { FaSearch } from 'react-icons/fa'
 
 
 
+
 const Header = () => {
   return (
     <div>
@@ -24,10 +25,10 @@ const Header = () => {
         <img src={carrinho} alt="carrinho"/>
     </div>
 
-    <div className="nav">
+    <div className="nav ml-15 p-[15 72 15 49] font-medium">
 
         <nav>
-            <ul className="header ml-[10] p-[15 72 15 49] font-medium">
+            <ul className="header ml-[10] p-[15 72 15 49] font-medium flex items-center gap-[36px] hover:text-pink-500">
                 <li><a className='hover:underline text-primary' href="#Home">Home</a></li>
                 <li><a className='hover:underline text-primary'href="#Produtos">Produtos</a></li>
                 <li><a className='hover:underline text-primary' href="#Categorias">Categorias</a></li>
