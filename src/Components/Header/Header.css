@@ -1,9 +1,9 @@
 
-/* 
+
 a:hover {
     color: #C92071;
-    /* text-decoration: underline; */
-
+    text-decoration: underline;
+}
 
 li>a {
     color: gray;
@@ -57,6 +57,7 @@ ul {
     margin: 0;
 }
 
+/* parei aqui!!! */
 /* NÃO MEXER NO BUTTON */
 button {
     background-color: #C92071;
@@ -68,9 +69,4 @@ button {
     text-align: center;
     width: 100px;
 
-}
-
-
-img {
-    object-fit: contain;
 }
