@@ -1,6 +1,6 @@
 import React from 'react';
 import Rotas from "./rotas/Rotas";
-import FiltroGrupo from './componentes/FiltroGrupo/FiltroGrupo';
+import FiltroGrupo from "./components/FiltroGrupo/FiltroGrupo";
 
 function App() {
   return (
