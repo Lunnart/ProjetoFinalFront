@@ -2,7 +2,6 @@ import logo from "../../assets/logo-FOOTER.JPG.png"
 import twitter from "../../assets/Path 22667 X .JPG.png"
 import instagram from "../../assets/Group 2555 (1)INSTAGRAM.JPG.png"
 import facebook from "../../assets/Path 22671 FACEBOOK.JPG.png"
-import linha from "../../assets/Rectangle 3747LINHA.PJS.png"
 
 
 export function Footer() {
