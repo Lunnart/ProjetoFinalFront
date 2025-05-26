@@ -1,13 +1,17 @@
-
-import Rotas from "./rotas/Rotas"
+import React from 'react';
+import Rotas from "./rotas/Rotas";
+import FiltroGrupo from './componentes/FiltroGrupo/FiltroGrupo';
 
 function App() {
-
   return (
-    <>
-    <Rotas/>
-    </>
-  )
+    <div className="App">
+      {/* Componente de Filtros (aside) */}
+      <FiltroGrupo />
+
+      {/* Suas rotas para páginas */}
+      <Rotas />
+    </div>
+  );
 }
 
-export default App
+export default App;

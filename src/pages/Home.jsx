@@ -1,5 +1,4 @@
-
-import React from 'react'
+import OfertaEspecial from '../components/OfertaEspecial/OfertaEspecial'
 
 const Home = () => {
   return (
