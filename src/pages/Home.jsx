@@ -1,18 +1,19 @@
+cards-jairo
+import React from 'react'
 import OfertaEspecial from '../components/OfertaEspecial/OfertaEspecial'
 import Categorias from '../Components/Categorias'
-import CardColecao from '../Components/CardColecao'
+import CardColecao from '../Components/CardColecao'main
 import Carrosel from '../Components/Carrosel'
+import ProductCard from '../Components/ProductCard'
 
 const Home = () => {
   return (
-    <>
- thais-Card
-     
+    <>     
      <Carrosel/>
      <CardColecao/>
      <Categorias/>
-     <div>Produto Listing</div>
-     <OfertaEspecial/>
+     <ProductCard/>
+     <div>Oferta Especial</div>
     </>
   )
 }
