@@ -3,24 +3,9 @@ import carrinho from "../../assets/carrinho.png"
 import logo from "../../assets/logo.png"
 import { FaSearch } from 'react-icons/fa'
 
-
-
-
-
-//li>a {
-//    color: gray;
-//}
-
-//li:hover {
-// color: gray;
-// text-underline-offset: 5px;
-//}
-
-
-
 const Header = () => {
     return (
-        <div>
+        <>
             <header>
                 <div className="text-white flex justify-around items-center my-[40px] mx-[30px]">
                     <img src={logo} alt="" className='' />
@@ -32,11 +17,6 @@ const Header = () => {
                     </form>
                     <label className="text-light-gray font-light" htmlFor="text"><a className='hover:underline font-normal text-dark-gray-2' href="#Cadastro">Cadastre-se</a></label>
                     <button className="bg-primary text-white font-bold rounded-lg p-2 text-center w-[114px]" type="button" >Entrar</button>
-
-
-                    {/* <a href="#" className="text-light-gray font-inter">Favoritos</a> */}
-
-
                     <img className='object-contain' src={carrinho} alt="carrinho" />
                 </div>
 
@@ -49,10 +29,9 @@ const Header = () => {
                             <li><a className='hover:underline hover:font-bold hover:text-primary text-dark-gray-2 font-normal decoration-2 underline-offset-[3px]' href="#Meus Pedidos">Meus Pedidos</a></li>
                         </ul>
                     </nav>
-
                 </div>
             </header>
-        </div>
+        </>
     )
 }
 
