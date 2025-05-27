@@ -1,12 +1,18 @@
-
-import React from 'react'
+import CardColecao from '../Components/CardColecao'
+import Carrosel from '../Components/Carrosel'
 
 const Home = () => {
   return (
     <>
-     <div>Página Home</div>
+     <Carrosel/>
+     <CardColecao/>
+     <div>Categoria</div>
+     <div>Produto Listing</div>
+     <div>Oferta Especial</div>
+     
     </>
   )
 }
+
 
 export default Home
