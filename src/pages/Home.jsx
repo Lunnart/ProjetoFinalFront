@@ -1,3 +1,4 @@
+import OfertaEspecial from '../components/OfertaEspecial/OfertaEspecial'
 import Categorias from '../Components/Categorias'
 import CardColecao from '../Components/CardColecao'
 import Carrosel from '../Components/Carrosel'
@@ -9,10 +10,9 @@ const Home = () => {
      
      <Carrosel/>
      <CardColecao/>
-     <div>Categoria</div>
+     <Categorias/>
      <div>Produto Listing</div>
-     <div>Oferta Especial</div>
-     
+     <OfertaEspecial/>
     </>
   )
 }
