@@ -1,8 +1,7 @@
-cards-jairo
 import React from 'react'
 import OfertaEspecial from '../components/OfertaEspecial/OfertaEspecial'
 import Categorias from '../Components/Categorias'
-import CardColecao from '../Components/CardColecao'main
+import CardColecao from '../Components/CardColecao'
 import Carrosel from '../Components/Carrosel'
 import ProductCard from '../Components/ProductCard'
 
@@ -13,7 +12,7 @@ const Home = () => {
      <CardColecao/>
      <Categorias/>
      <ProductCard/>
-     <div>Oferta Especial</div>
+     <OfertaEspecial/>
     </>
   )
 }
