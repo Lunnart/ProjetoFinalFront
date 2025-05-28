@@ -20,10 +20,10 @@ const Header = () => {
                     <img className='object-contain' src={carrinho} alt="carrinho" />
                 </div>
 
-                <div className="nav ml-17 p-[15 72 15 49] font-medium">
+                <div className="nav ml-17 p-[15 72 15 49] font-medium p-5">
                     <nav>
                         <ul className="header ml-[10] p-[15 72 15 49] font-medium flex items-center gap-[36px] hover: bg-50 ">
-                            <li><a className='underline font-bold text-primary text-dark-gray-2 decoration-2 underline-offset-[3px]' href="#Home">Home</a></li>
+                            <li><a className='underline font-bold hover:text-primary text-dark-gray-2 decoration-2 underline-offset-[3px]' href="#Home">Home</a></li>
                             <li><a className='hover:underline hover:font-bold hover:text-primary  text-dark-gray-2 font-normal decoration-2 underline-offset-[3px]' href="#Produtos">Produtos</a></li>
                             <li><a className='hover:underline hover:font-bold hover:text-primary text-dark-gray-2 font-normal decoration-2 underline-offset-[3px]' href="#Categorias">Categorias</a></li>
                             <li><a className='hover:underline hover:font-bold hover:text-primary text-dark-gray-2 font-normal decoration-2 underline-offset-[3px]' href="#Meus Pedidos">Meus Pedidos</a></li>
