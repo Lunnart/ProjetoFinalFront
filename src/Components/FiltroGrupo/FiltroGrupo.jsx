@@ -2,9 +2,7 @@ import './FiltroGrupo.css';
 
 const FiltroGrupo = () => {
   return (
-    <aside className="filtro-container">
-      <h2 className="titulo">Filtrar por</h2>
-
+    <>
       {/* Marca */}
       <div className="filtro-bloco">
         <h3>Marca</h3>
@@ -46,7 +44,7 @@ const FiltroGrupo = () => {
           <label><input type="radio" name="estado" /> Usado</label>
         </div>
       </div>
-    </aside>
+    </>
   );
 };
 

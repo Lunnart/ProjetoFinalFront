@@ -1,15 +1,21 @@
+import React from 'react'
 import OfertaEspecial from '../components/OfertaEspecial/OfertaEspecial'
+import Categorias from '../Components/Categorias'
+import CardColecao from '../Components/CardColecao'
+import Carrosel from '../Components/Carrosel'
+import ProductCard from '../Components/ProductCard'
 
 const Home = () => {
   return (
-    <>
-     <div>Carrossel</div>
-     <div>Cards coleção</div>
-     <div>Categoria</div>
-     <div>Produto Listing</div>
+    <>     
+     <Carrosel/>
+     <CardColecao/>
+     <Categorias/>
+     <ProductCard/>
      <OfertaEspecial/>
     </>
   )
 }
+
 
 export default Home
