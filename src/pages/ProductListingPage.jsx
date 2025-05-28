@@ -1,9 +1,15 @@
 import React from 'react'
+import ProductListing from '../Components/ProductListing'
+import Section from '../Components/Section'
 
 const ProductListingPage = () => {
   return (
     <div>
-      <h1>Página de listagem dos produtos</h1>
+      {/* <Ordernacao/>
+      <Aside/> */}
+      <Section title='' textLeft>
+        <ProductListing quantidade={15} />
+      </Section>
     </div>
   )
 }
