@@ -1,4 +1,3 @@
-cards-jairo
 import React from 'react'
 import OfertaEspecial from '../components/OfertaEspecial/OfertaEspecial'
 import Categorias from '../Components/Categorias'
