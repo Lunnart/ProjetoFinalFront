@@ -1,13 +1,12 @@
-
-import Rotas from "./rotas/Rotas"
+import React from 'react';
+import Rotas from "./rotas/Rotas";
 
 function App() {
-
   return (
-    <>
-    <Rotas/>
-    </>
-  )
+    <div>
+      <Rotas />
+    </div>
+  );
 }
 
-export default App
+export default App;
