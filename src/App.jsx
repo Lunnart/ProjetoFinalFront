@@ -5,10 +5,6 @@ import FiltroGrupo from "./components/FiltroGrupo/FiltroGrupo";
 function App() {
   return (
     <div className="App">
-      {/* Componente de Filtros (aside) */}
-      <FiltroGrupo />
-
-      {/* Suas rotas para páginas */}
       <Rotas />
     </div>
   );

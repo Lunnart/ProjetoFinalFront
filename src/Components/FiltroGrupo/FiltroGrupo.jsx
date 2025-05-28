@@ -1,4 +1,3 @@
-import React from 'react';
 import './FiltroGrupo.css';
 
 const FiltroGrupo = () => {
