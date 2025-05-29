@@ -2,8 +2,9 @@
 @import "tailwindcss";
 @import "flowbite/src/themes/default";
 
-/* @plugin "flowbite/plugin"; */
-/* @source "../node_modules/flowbite"; */
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
 
 @theme {
     --color-primary: #C92071;
@@ -24,4 +25,3 @@
     --font-inter: 'Inter', sans-serif;
 
 }
- 
