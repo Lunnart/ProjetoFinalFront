@@ -7,9 +7,7 @@ import fone from '../assets/foneCategoria.png'
 const Categorias = ()  => {
     return (
 < >
-       <h1 className="text-[#474747] text-center p-10 font-bold text-[24px]  ">Coleções em Destaque</h1>
-
-          <div className=" flex  gap-12  ps-[390px]  ">
+        <div className=" flex gap-12 justify-center">
             <div className=" rounded-full bg-[#ffffff]  drop-shadow-lg blur-[000000] justify-items-center  h-[104px] w-[104px]   p-2 object-cover ">
               <img src={blusa} alt="" />
               <h2 className="text-[#474747] font-semibold text-center p-8 text-[14px] ">Camisetas</h2>
