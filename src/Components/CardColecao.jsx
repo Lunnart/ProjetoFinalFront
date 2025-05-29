@@ -10,7 +10,7 @@ const CardColecao = () => {
             <h3 className="text-dark-gray-2 font-bold text-left text-2xl ml-5">Coleções em destaque</h3>
 
 
-            <div className="flex flex-row justify-items-center gap-6 ml-5">
+            <div className="flex flex-row justify-items-center gap-6 ml-5 flex justify-stretch mt-10 mr-20 mb-15 ml-20">
 
                 <div className="relative bg-[#D8E3F2] p-15 rounded-lg shadow-lg w-[405px] h-[251px]">
  
