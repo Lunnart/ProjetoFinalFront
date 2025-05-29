@@ -2,7 +2,6 @@
 @import "tailwindcss";
 @import "flowbite/src/themes/default";
 
-
 @theme {
     --color-primary: #C92071;
     --color-secondary: #B5B6F2;
@@ -22,4 +21,3 @@
     --font-inter: 'Inter', sans-serif;
 
 }
- 
