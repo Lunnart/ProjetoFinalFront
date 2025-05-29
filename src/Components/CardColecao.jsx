@@ -4,13 +4,14 @@ import fone from "../assets/fone.png"
 import teniscolecao from "../assets/teniscolecao.png"
 
 
+
 const CardColecao = () => {
     return (
         <>
             <h3 className="text-dark-gray-2 font-bold text-left text-2xl ml-20">Coleções em destaque</h3>
 
 
-            <div className="flex flex-row justify-items-center gap-6 ml-5 flex justify-stretch mt-10 mr-20 mb-15 ml-20">
+            <div className="flex flex-row justify-items-center gap-6 ml-5 justify-stretch mt-10 mr-20 mb-15 ">
 
                 <div className="relative bg-[#D8E3F2] p-10 rounded-lg shadow-lg w-[405px] h-[251px]">
                     <button className="bg-[#E7FF86] font-bold rounded-xl p-1">30% Off</button>
