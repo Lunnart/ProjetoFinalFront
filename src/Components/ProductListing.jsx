@@ -10,7 +10,9 @@ const ProductListing = ({quantidade}) => {
           categoria: "Tenis",
           preco: 200,
           precoDisconto: 100,
-          img: tenis
+          img: tenis,
+          desconto: true
+
         },
         {
           id: "2",
@@ -18,7 +20,8 @@ const ProductListing = ({quantidade}) => {
           categoria: "Tenis",
           preco: 200,
           precoDisconto: 100,
-          img: tenis
+          img: tenis,
+          desconto: true
         },
        {
           id: "3",
@@ -34,7 +37,8 @@ const ProductListing = ({quantidade}) => {
           categoria: "Tenis",
           preco: 200,
           precoDisconto: 100,
-          img: tenis
+          img: tenis,
+          desconto: true
         },
         {
           id: "5",
@@ -42,7 +46,8 @@ const ProductListing = ({quantidade}) => {
           categoria: "Tenis",
           preco: 200,
           precoDisconto: 100,
-          img: tenis
+          img: tenis,
+          desconto: true
         },
         {
           id: "6",
@@ -74,7 +79,8 @@ const ProductListing = ({quantidade}) => {
           categoria: "Tenis",
           preco: 200,
           precoDisconto: 100,
-          img: tenis
+          img: tenis,
+          desconto: true
         },
         {
           id: "10",
@@ -90,7 +96,8 @@ const ProductListing = ({quantidade}) => {
           categoria: "Tenis",
           preco: 200,
           precoDisconto: 100,
-          img: tenis
+          img: tenis,
+          desconto: true
         },
         {
           id: "12",
@@ -106,14 +113,16 @@ const ProductListing = ({quantidade}) => {
           categoria: "Tenis",
           preco: 200,
           precoDisconto: 100,
-          img: tenis
+          img: tenis,
+          desconto: true
         }, {
           id: "14",
           produto: "K-Swiss V8 - Masculino",
           categoria: "Tenis",
           preco: 200,
           precoDisconto: 100,
-          img: tenis
+          img: tenis,
+          desconto: true
         },
         {
           id: "15",
@@ -121,7 +130,8 @@ const ProductListing = ({quantidade}) => {
           categoria: "Tenis",
           preco: 200,
           precoDisconto: 100,
-          img: tenis
+          img: tenis,
+          desconto: true
         },
   ]
   return (
@@ -129,7 +139,7 @@ const ProductListing = ({quantidade}) => {
     <ul className='flex gap-6 flex-wrap'>
      {produtos.slice(0, quantidade).map((produto)=> (
         <ProductCard key={produto.id} img={produto.img} 
-        produto={produto.produto} categoria={produto.categoria} precoDisconto={produto.precoDisconto} preco={produto.preco}/>
+        produto={produto.produto} desconto={produto.desconto} categoria={produto.categoria} precoDisconto={produto.precoDisconto} preco={produto.preco}/>
      ))}
     </ul>
     </>
