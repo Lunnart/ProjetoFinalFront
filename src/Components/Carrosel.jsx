@@ -18,7 +18,7 @@ const Carrosel = () => {
                     </div>
 
                     <div className="flex-container flex justify-end mr-2">
-                        <h3 className="flex flex-wrap break-words">
+                        <h3 className="flex flex-wrap break-words text-dark-gray-2 text-[20px]">
                             Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.
                         </h3>
                        
