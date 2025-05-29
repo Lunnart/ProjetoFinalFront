@@ -1,0 +1,70 @@
+/* Estilo para a div que contém a descrição da oferta */
+.melhores-ofertas-personalizadas {
+    width: 500px; /* Define a largura da div. Antes estava 600px, agora é 500px */
+    padding: 0; /* Remove o preenchimento interno da div */
+    margin: 0; /* Remove a margem externa da div */
+    flex: 1; /* Define que essa div pode crescer para preencher o espaço disponível */
+    font-size: 1.1rem; /* Tamanho da fonte. Antes estava 1.25rem, agora é um pouco menor */
+}
+
+/* Estilo para o título da oferta especial */
+.especial {
+    color: #c92071; /* Define a cor do texto como o tom de rosa #c92071 */
+}
+
+
+
+/* Estilo para o botão */
+.ver-ofertas {
+    font-weight: 700;
+    background-color: #c92071; /* Cor de fundo do botão, um tom de rosa */
+    color: white; /* Cor do texto no botão (branco) */
+    border: 0; /* Remove qualquer borda do botão */
+    height: 1cm; /* Define a altura do botão. Antes estava 1.2cm, agora é 1cm */
+    width: 4.5cm; /* Define a largura do botão. Antes estava 5cm, agora é 4.5cm */
+    font-size: 14px; /* Tamanho da fonte do texto dentro do botão */
+    border-radius: 6px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Altera o cursor para uma mãozinha quando o mouse passa sobre o botão */
+}
+
+/* Estilo para a div com a imagem do Air Jordan (fundo circular) */
+.air-jordan {
+    position: relative; /* Define o posicionamento relativo para que os elementos filhos possam ser posicionados com base nela */
+    width: 350px; /* Largura da div. Antes estava 450px, agora é 350px */
+    height: 350px; /* Altura da div. Antes estava 450px, agora é 350px */
+    background-image: url('/Nova pasta (2)/Ellipse 11.png'); /* Define uma imagem de fundo circular */
+    background-size: cover; /* Faz com que a imagem de fundo cubra todo o espaço da div */
+    background-position: center; /* Centraliza a imagem de fundo */
+    display: flex; /* Usa o flexbox para alinhar o conteúdo dentro da div */
+    align-items: center; /* Alinha o conteúdo no centro verticalmente */
+    justify-content: center; /* Alinha o conteúdo no centro horizontalmente */
+    border-radius: 50%; /* Torna a div circular */
+    overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse os limites da div circular */
+    flex-shrink: 0; /* Impede que a div encolha caso o espaço seja reduzido */
+}
+
+/* Estilo para a imagem dentro da div circular */
+.air-jordan img {
+    width: 90%; /* A imagem ocupa 90% da largura da div (antes estava 110%, o que aumentaria a imagem para além da borda) */
+    height: auto; /* A altura da imagem se ajusta automaticamente para manter as proporções */
+    object-fit: contain; /* Faz a imagem se ajustar ao tamanho da div sem distorcer */
+}
+
+/* Estilo para a div que contém as ofertas personalizadas */
+.ofertas-personalizadas {
+    display: flex; /* Usa flexbox para alinhar o conteúdo de forma flexível */
+    flex-direction: row; /* Alinha os itens em linha (horizontalmente) */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    justify-content: space-between; /* Espaça os itens igualmente entre si */
+    gap: 60px; /* Espaço de 60px entre os itens (antes estava 80px) */
+    padding: 60px; /* Preenchimento de 60px ao redor da div */
+    flex-wrap: wrap; /* Permite que os itens que não cabem na linha se movam para a linha seguinte */
+}
+
+/* Estilo para a div que envolve todo o conteúdo */
+.container-geral {
+    max-width: 1400px; /* Define a largura máxima da div como 1400px (antes estava 1600px) */
+    margin: 0 auto; /* Centraliza a div na página */
+    padding: 40px; /* Preenchimento de 40px ao redor da div */
+    box-sizing: border-box; /* Garante que o preenchimento e a borda sejam contados na largura total */
+}

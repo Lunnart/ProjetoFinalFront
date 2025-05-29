@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
+@import "flowbite/src/themes/default";
 
 @theme {
     --color-primary: #C92071;
@@ -17,5 +18,6 @@
     --color-light-gray-3: #F5F5F5;
     --color-white: #FFFFFF;
 
+    --font-inter: 'Inter', sans-serif;
+
 }
- 
