@@ -8,16 +8,39 @@ const Buybox = () => {
 
         < >
 
-            <div className='bg-gray-50 pb-10 pt-5 '>
+            <div className='bg-gray-50 pb-10 pt-5 pl-5 '>
                 <p className=" font-semibold  text-[#474747] "> Home | Produtos | Tênis | Nike | Tênis Nike Revolution 6 Next
                     Masculino </p>
             </div>
-            <div className='flex  bg-gray-50'>
+            <div className='flex  bg-gray-50 pl-5'>
 
-                <div className='w-[50%]'>
+                <div className='w-[50%] '>
 
-                   <div className=" bg-[#FFE8BC] duration-700 p-20 ease-in-out">
+                    <div className=" bg-[#E2E3FF] duration-700 p-20 ease-in-out ">
                         <img src={tenis} className="object-cover" alt="Slide 2" />
+                    </div>
+                    <div className=' flex'>
+                        <div className='bg-[#E2E3FF] drop-shadow-xl cursor-pointer rounded-sm w-[117.81px] m-2'  >
+                            <button><img src={tenis} alt="" className='cursor-pointer p-3 ' /></button>
+                        </div>
+
+                        <div className='bg-[#FFE8BC] drop-shadow-xl cursor-pointer  rounded-sm w-[117.81px] m-2'  >
+
+                            <button><img src={tenis} alt="" className='cursor-pointer p-3 ' /></button>
+                        </div>
+
+                        <div className='bg-[#FFC0BC] drop-shadow-xl cursor-pointer rounded-sm w-[117.81px] m-2'  >
+                            <button><img src={tenis} alt="" className='cursor-pointer p-3 ' /></button>
+                        </div>
+
+                        <div className='bg-[#DEC699] drop-shadow-xl cursor-pointer  rounded-sm w-[117.81px] m-2'  >
+                            <button><img src={tenis} alt="" className='cursor-pointer p-3 ' /></button>
+                        </div>
+
+                        <div className='bg-[#E8DFCF] drop-shadow-xl cursor-pointer rounded-sm w-[117.81px] m-2'  >
+                            <button><img src={tenis} alt="" className='cursor-pointer p-3 ' /></button>
+                        </div>
+
                     </div>
 
                 </div>
@@ -25,7 +48,7 @@ const Buybox = () => {
 
 
                 <div className=' w-[50%] pl-6 '>
-                    <h1 className="font-bold text-[#1f1f1f]  text-[32px] pl-2 pr-95"> Tênis Nike Revolution   6 Next Nature Masculino
+                    <h1 className="font-bold text-[#1f1f1f]  text-[32px] pl-2 pr-60"> Tênis Nike Revolution   6 Next Nature Masculino
                     </h1>
                     <h2 className="text-[#666666] text-[12px] font-semibold pl-2"> Casual | Nike | REF:38416711 </h2>
                     <div className=" flex  gap-4 pt-5 pl-2  ">
