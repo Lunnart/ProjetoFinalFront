@@ -16,7 +16,7 @@ const Home = () => {
      <Section>
       <Categorias/>
      </Section>
-    <Section textLeft title='Produtos em alta' link>
+    <Section title='Produtos em alta' link textLeft>
       <ProductListing quantidade={8} />
     </Section>
      <OfertaEspecial/>
