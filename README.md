@@ -96,7 +96,7 @@ Documentação do Vite
 
 
 👨‍💻 Desenvolvido por:
-Thais 
-Enyd Ferreira
-Luanne
-Jairo
+Thais Barreto - [github](https://github.com/thaisbarreto43)
+Enyd Ferreira - [github](https://github.com/enydferreira)
+Luanne Lima - [github](https://github.com/lunnart)
+Antonio Jairo - [github](https://github.com/antoniofreitas0427)
