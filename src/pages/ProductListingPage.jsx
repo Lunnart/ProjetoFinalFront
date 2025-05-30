@@ -1,7 +1,7 @@
 import React from 'react'
 import ProductListing from '../Components/ProductListing'
 import Section from '../Components/Section'
-import FiltroGrupo from "../components/FiltroGrupo/FiltroGrupo.jsx";
+import FiltroGrupo from "../Components/FiltroGrupo/FiltroGrupo"
 
 const ProductListingPage = () => {
 
