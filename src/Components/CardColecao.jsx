@@ -8,7 +8,11 @@ import teniscolecao from "../assets/teniscolecao.png"
 const CardColecao = () => {
     return (
         <>
-            <div className="flex flex-row justify-items-center gap-6 ml-5 justify-stretch mt-10 mr-20 mb-15 ">
+
+         
+
+            <div className="flex flex-row justify-items-center gap-6 ml-5">
+
 
                 <div className="relative bg-[#D8E3F2] p-10 rounded-lg shadow-lg w-[405px] h-[251px]">
                     <button className="bg-[#E7FF86] font-bold rounded-xl p-1">30% Off</button>
