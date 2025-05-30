@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import ProductCard from './ProductCard'
 import tenis from "../assets/tenisCard.png"
 
-const ProductListing = ({quantidade}) => {
+const ProductListing = ({quantidade, inputOrder}) => {
   const [ordenacao, setOrdenacao] = useState("padrao")
   const [produtos, setProdutos] = useState([
         {
@@ -156,13 +156,14 @@ const ProductListing = ({quantidade}) => {
 
   return (
     <>
-    <div className='flex justify-end pt-5'>
+
+   {inputOrder && <div className='flex justify-end pt-5'>
         <select name="" id="" className='rounded-md' value={ordenacao} onChange={handleChange}>
           <option className='' value="padrao">Ordenar por preco</option>
           <option value="menor">Ordenar por: menor preço</option>
           <option value="maior">Ordenar por: maior preço</option>
         </select>
-    </div>
+    </div>}
     <ul className='flex gap-6 flex-wrap'>
      {produtos.slice(0, quantidade).map((produto)=> (
         <ProductCard key={produto.id} img={produto.img} 

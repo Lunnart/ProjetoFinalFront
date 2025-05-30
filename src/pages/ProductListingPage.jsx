@@ -15,7 +15,7 @@ const ProductListingPage = () => {
       </aside>
       <div>
       <Section title='' textLeft> 
-        <ProductListing quantidade={15} />
+        <ProductListing quantidade={15} inputOrder/>
       </Section>
       </div>
     </div>
