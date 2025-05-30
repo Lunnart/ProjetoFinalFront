@@ -23,7 +23,7 @@ const Header = () => {
                 <div className="nav ml-17 p-[15 72 15 49] font-medium p-5">
                     <nav>
                         <ul className="header ml-[10] p-[15 72 15 49] font-medium flex items-center gap-[36px] hover: bg-50 ">
-                            <li><Link to='/' className='underline font-bold hover:text-primary text-dark-gray-2 decoration-2 underline-offset-[3px]'>Home</Link></li>
+                            <li><Link to='/' className='underline font-bold text-primary decoration-2 underline-offset-[3px]'>Home</Link></li>
                             <li><Link to='/produtos' className='hover:underline hover:font-bold hover:text-primary  text-dark-gray-2 font-normal decoration-2 underline-offset-[3px]'>Produtos</Link></li>
                             <li><a className='hover:underline hover:font-bold hover:text-primary text-dark-gray-2 font-normal decoration-2 underline-offset-[3px]' href="#Categorias">Categorias</a></li>
                             <li><Link to='/' className='hover:underline hover:font-bold hover:text-primary text-dark-gray-2 font-normal decoration-2 underline-offset-[3px]'>Meus Pedidos</Link></li>
