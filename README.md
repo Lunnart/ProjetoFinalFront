@@ -2,11 +2,85 @@
 
 Este projeto é resultante do programa Geração Tech 2.0 atraves dos ensinamentos de nossa professora Nayara Calenzo e nosso monitor Júlio.
 
-Currently, two official plugins are available:
+📝 Sobre o Projeto:
+Este é um projeto educacional de e-commerce desenvolvido para o curso da Geração Tech 2.0. A DripStore é uma loja virtual de tênis e produtos esportivos, criada para demonstrar a implementação de um front-end moderno com React e Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O projeto foi desenvolvido com foco em práticas modernas de desenvolvimento web, componentização, e uma experiência de usuário fluida e responsiva.
 
-## Expanding the ESLint configuration
+🚀 Principais Tecnologias:
+⚛️ React - Biblioteca JavaScript para construção de interfaces
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Tailwind CSS - Framework CSS importado
+
+⚡ Vite - Ferramenta de construção e servidor de desenvolvimento
+
+🧭 React Router - Roteamento para aplicações React
+
+💅 Módulos CSS - Estilos com escopo local para componentes
+
+📱 Design Responsivo - Layout adaptável para todos os dispositivos
+
+🖼️ Swiper - Biblioteca para galerias e carrosséis
+
+
+🛠️ Instalação
+Pré-requisitos
+Node.js (versão 14 ou superior)
+
+Gerenciador de Pacotes Node (npm)
+
+Clonar ou repositório
+clone do https://github.com/Lunnart/ProjetoFinalFront.git
+
+Entre na massa do projeto
+loja de gotejamento de CDs
+
+Instalando dependências
+instalação npm
+
+Rodando o projeto
+npm run dev
+
+Acesse  Local:   http://localhost:5173/ para visualizar o aplicativo no navegador.
+
+
+🔄 Atualizando o projeto:
+Se você já clonou o projeto anteriormente e deseja atualizar para a versão mais recente:
+
+-se de estar na filial principal
+git checkout principal
+
+Busque as atualizações
+git pull
+
+Instale possíveis novas dependências
+instalação npm
+
+
+🤝 Contribuindo:
+Faça um garfo do projeto
+
+Crie uma branch para seu feature (git checkout -b feature/nova-feature)
+
+Faça commit de suas alterações (git commit -m 'Adiciona nova feature')
+
+Faça push para um branch (git push origin feature/nova-feature)
+
+Abra um Pull Request
+
+
+📚 Recursos de Aprendizagem:
+Documentação do React
+
+Documentação do Tailwind CSS
+
+Guia do React Router
+
+Documentação do Vite
+
+
+👨‍💻 Desenvolvido por:
+Thais 
+Enyd Ferreira
+Luanne
+Jairo
