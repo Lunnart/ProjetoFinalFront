@@ -2,10 +2,13 @@
 
 Este projeto é resultante do programa Geração Tech 2.0 atraves dos ensinamentos de nossa professora Nayara Calenzo e nosso monitor Júlio.
 
+
 📝 Sobre o Projeto:
 Este é um projeto educacional de e-commerce desenvolvido para o curso da Geração Tech 2.0. A DripStore é uma loja virtual de tênis e produtos esportivos, criada para demonstrar a implementação de um front-end moderno com React e Tailwind CSS.
 
 O projeto foi desenvolvido com foco em práticas modernas de desenvolvimento web, componentização, e uma experiência de usuário fluida e responsiva.
+
+
 
 🚀 Principais Tecnologias:
 ⚛️ React - Biblioteca JavaScript para construção de interfaces
@@ -21,6 +24,8 @@ O projeto foi desenvolvido com foco em práticas modernas de desenvolvimento web
 📱 Design Responsivo - Layout adaptável para todos os dispositivos
 
 🖼️ Swiper - Biblioteca para galerias e carrosséis
+
+
 
 
 🛠️ Instalação
@@ -44,6 +49,8 @@ npm run dev
 Acesse  Local:   http://localhost:5173/ para visualizar o aplicativo no navegador.
 
 
+
+
 🔄 Atualizando o projeto:
 Se você já clonou o projeto anteriormente e deseja atualizar para a versão mais recente:
 
@@ -55,6 +62,9 @@ git pull
 
 Instale possíveis novas dependências
 instalação npm
+
+
+
 
 
 🤝 Contribuindo:
@@ -69,6 +79,9 @@ Faça push para um branch (git push origin feature/nova-feature)
 Abra um Pull Request
 
 
+
+
+
 📚 Recursos de Aprendizagem:
 Documentação do React
 
@@ -77,6 +90,9 @@ Documentação do Tailwind CSS
 Guia do React Router
 
 Documentação do Vite
+
+
+
 
 
 👨‍💻 Desenvolvido por:
