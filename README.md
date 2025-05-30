@@ -1,102 +1,72 @@
-# Projeto Final Front
+# 🚀 Projeto Final Frontend - Geração Tech 2.0 (2025)
 
-Este projeto é resultante do programa Geração Tech 2.0 atraves dos ensinamentos de nossa professora Nayara Calenzo e nosso monitor Júlio.
+Este projeto é resultante do programa Geração Tech 2.0 atraves dos ensinamentos de nossa professora Nayara Calenzo e nosso monitor Júlio César.
+Desenvolvido como parte do curso **Presencial de Fullstack do Geração Tech 2.0 (2025)**, promovido pelo **IEL (Instituto Euvaldo Lodi)** em parceria com a **ADECE (Agência de Desenvolvimento do Estado do Ceará)** e com a **Digital Collger**.
 
+---
 
-📝 Sobre o Projeto:
-Este é um projeto educacional de e-commerce desenvolvido para o curso da Geração Tech 2.0. A DripStore é uma loja virtual de tênis e produtos esportivos, criada para demonstrar a implementação de um front-end moderno com React e Tailwind CSS.
+## 🛠️ Tecnologias Utilizadas
 
-O projeto foi desenvolvido com foco em práticas modernas de desenvolvimento web, componentização, e uma experiência de usuário fluida e responsiva.
+- ⚛️ **React** - Biblioteca JavaScript para construção de interfaces de usuário.
+- 🎨 **Tailwind CSS** - Framework de CSS utilitário para estilização moderna, responsiva e rápida.
+- ⚡ **Vite** - Ferramenta de build extremamente rápida para desenvolvimento com React.
+- ☁️ **Vercel** - Plataforma utilizada para realizar o deploy e disponibilizar o projeto online.
 
+---
 
+```
+src/
+├── assets/                     
+├── Components/                   
+│   ├── FiltroGrupo/              
+│   ├── Footer/                   
+│   ├── Header/                   
+│   ├── OfertaEspecial/           
+│   ├── CardColecao.jsx           
+│   ├── Carrosel.jsx              
+│   ├── Categorias.jsx            
+│   ├── Layout.css                
+│   ├── Layout.jsx                
+│   ├── ProductCard.jsx           
+│   ├── ProductListing.jsx        
+│   └── Section.jsx               
+├── pages/                        
+│   ├── cardDedestaque.jsx        
+│   ├── Home.jsx                  
+│   ├── ProductListingPage.jsx    
+│   └── ProductViewPage.jsx       
+├── rotas/                        
+│   └── Rotas.jsx
+├── App.jsx                       
+├── index.css                     
+└── main.jsx    
+```
 
-🚀 Principais Tecnologias:
-⚛️ React - Biblioteca JavaScript para construção de interfaces
+## 🌐 Deploy
 
-🎨 Tailwind CSS - Framework CSS importado
+O projeto foi publicado na plataforma **Vercel**, que oferece deploy simples, rápido e eficiente para aplicações front-end modernas.
 
-⚡ Vite - Ferramenta de construção e servidor de desenvolvimento
+🔗 [Acesse o projeto online aqui](https://projeto-final-front-six.vercel.app/)
 
-🧭 React Router - Roteamento para aplicações React
+---
 
-💅 Módulos CSS - Estilos com escopo local para componentes
+## 🖼️ Layout das Páginas
 
-📱 Design Responsivo - Layout adaptável para todos os dispositivos
+### ✅ Página Home
+![página home](./src/assets/home.png)
 
-🖼️ Swiper - Biblioteca para galerias e carrosséis
+### ✅ Página de Produtos
+![página produtos](./src/assets/paginaprodutos.png)
 
+### ✅ Página de Detalhe do Produto
+![Layout da Página](./src/assets/layout.png)
 
+---
 
+## ▶️ Como Rodar o Projeto Localmente
 
-🛠️ Instalação
-Pré-requisitos
-Node.js (versão 14 ou superior)
+Siga os passos abaixo para rodar o projeto na sua máquina:
 
-Gerenciador de Pacotes Node (npm)
-
-Clonar ou repositório
-clone do https://github.com/Lunnart/ProjetoFinalFront.git
-
-Entre na massa do projeto
-loja de gotejamento de CDs
-
-Instalando dependências
-instalação npm
-
-Rodando o projeto
-npm run dev
-
-Acesse  Local:   http://localhost:5173/ para visualizar o aplicativo no navegador.
-
-
-
-
-🔄 Atualizando o projeto:
-Se você já clonou o projeto anteriormente e deseja atualizar para a versão mais recente:
-
--se de estar na filial principal
-git checkout principal
-
-Busque as atualizações
-git pull
-
-Instale possíveis novas dependências
-instalação npm
-
-
-
-
-
-🤝 Contribuindo:
-Faça um garfo do projeto
-
-Crie uma branch para seu feature (git checkout -b feature/nova-feature)
-
-Faça commit de suas alterações (git commit -m 'Adiciona nova feature')
-
-Faça push para um branch (git push origin feature/nova-feature)
-
-Abra um Pull Request
-
-
-
-
-
-📚 Recursos de Aprendizagem:
-Documentação do React
-
-Documentação do Tailwind CSS
-
-Guia do React Router
-
-Documentação do Vite
-
-
-
-
-
-👨‍💻 Desenvolvido por:
-Thais Barreto - [github](https://github.com/thaisbarreto43)
-Enyd Ferreira - [github](https://github.com/enydferreira)
-Luanne Lima - [github](https://github.com/lunnart)
-Antonio Jairo - [github](https://github.com/antoniofreitas0427)
+1. **Clone o repositório:**
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
