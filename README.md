@@ -6,7 +6,7 @@ Desenvolvido como parte do curso **Presencial de Fullstack do Geração Tech 2.0
 
 ---
 
-# 👨‍💻 Autores:
+## 👨‍💻 Autores:
 
 Thais Barreto - [github](https://github.com/thaisbarreto43);
 Enyd Ferreira - [github](https://github.com/enydferreira);
