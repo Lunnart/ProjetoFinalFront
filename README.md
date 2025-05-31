@@ -70,3 +70,12 @@ Siga os passos abaixo para rodar o projeto na sua máquina:
 1. **Clone o repositório:**
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
+
+---
+
+# 👨‍💻 Autores:
+
+Thais Barreto - [github](https://github.com/thaisbarreto43);
+Enyd Ferreira - [github](https://github.com/enydferreira);
+Luanny Lima -   [github](https://github.com/lunnart);
+Antonio Jairo - [github](https://github.com/antoniofreitas0427);
