@@ -18,8 +18,4 @@ const Layout = () => {
 
 
 
-  {{/*import React from 'react'
-import "./Header.css"
-import carrinho from "../../assets/carrinho.png"
-import logo from "../../assets/logo.png"
-import { FaSearch } from 'react-icons/fa'*/}}
+
