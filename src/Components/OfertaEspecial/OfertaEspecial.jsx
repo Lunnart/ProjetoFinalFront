@@ -6,9 +6,10 @@ const OfertaEspecial = () => {
     <section className="max-w-[1400px] mx-auto px-10 py-10">
       <div className="flex flex-wrap gap-14 items-center justify-between">
         {/* Imagem com fundo circular */}
-        <div className="relative w-[350px] h-[350px] flex items-center justify-center rounded-full bg-cover bg-center overflow-hidden"
+        <div className="relative w-[$350px]
+         h-[350px] flex items-center justify-center rounded-full bg-cover bg-center overflow-hidden"
           style={{ backgroundImage: `url(${elipse})` }}>
-          <img src={tenis} alt="Air Jordan edição de colecionador" className="w-[90%] object-contain" />
+          <img src={tenis} alt="Air Jordan edição de colecionador" className="w-[80%] object-contain" />
         </div>
 
         {/* Descrição da Oferta */}
