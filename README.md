@@ -55,7 +55,8 @@ src/
 
 O projeto foi publicado na plataforma **Vercel**, que oferece deploy simples, rápido e eficiente para aplicações front-end modernas.
 
-🔗 [Acesse o projeto online aqui](https://projeto-final-front-six.vercel.app/)
+🔗 [Acesse o projeto online aqui](https://projeto-final-front-yyc4.vercel.app/)
+
 
 ---
 
