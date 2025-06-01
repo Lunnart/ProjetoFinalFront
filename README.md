@@ -55,13 +55,12 @@ src/
 
 O projeto foi publicado na plataforma **Vercel**, que oferece deploy simples, rápido e eficiente para aplicações front-end modernas.
 
-🔗 [Acesse o projeto online aqui](https://projeto-final-front-yyc4.vercel.app/)
-
+🔗 [Acesse o projeto online aqui](https://projeto-final-front-yax7.vercel.app)
 
 ---
 
 ## 🖼️ Layout das Páginas
-
+/
 ### ✅ Página Home
 ![página home](./src/assets/home.png)
 
