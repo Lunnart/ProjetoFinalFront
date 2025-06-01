@@ -68,7 +68,7 @@ O projeto foi publicado na plataforma **Vercel**, que oferece deploy simples, r�
 ![página produtos](./src/assets/paginaprodutos.png)
 
 ### ✅ Página de Detalhe do Produto
-![Layout da Página](./src/assets/pg3.png)
+![Layout da Página](./src/assets/pagina3.png)
 
 ---
 
