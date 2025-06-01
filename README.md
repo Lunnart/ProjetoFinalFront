@@ -55,7 +55,7 @@ src/
 
 O projeto foi publicado na plataforma **Vercel**, que oferece deploy simples, rápido e eficiente para aplicações front-end modernas.
 
-🔗 [Acesse o projeto online aqui](https://projeto-final-front-bunv.vercel.app/produto/1)
+🔗 [Acesse o projeto online aqui](https://projeto-final-front-52c4.vercel.app/)
 
 ---
 
