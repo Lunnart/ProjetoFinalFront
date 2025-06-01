@@ -6,7 +6,7 @@ const Buybox = () => {
     return (
         <>
             <div className='bg-gray-50 pb-10 pt-5 pl-5 '>
-                <p className=" font-semibold  text-[#474747] "> Home | Produtos | Tênis | Nike | Tênis Nike Revolution 6 Next
+                <p className=" font-semibold  text-[#474747] ml-20 "> Home | Produtos | Tênis | Nike | Tênis Nike Revolution 6 Next
                     Masculino </p>
             </div>
             <div className='flex gap-[40px] bg-gray-50 px-[100px]'>
@@ -70,17 +70,17 @@ const Buybox = () => {
 
                     <div className=" flex gap-2 font-semibold m-5 pt-2 pl-2">
                         <button
-                            className="border-[1px] border-[#cccccc] text-[#474747] rounded-sm bg-white cursor-pointer p-3">36</button>
+                            className="border-[1px] border-[#cccccc] hover:bg-primary hover:text-white text-[#474747] rounded-sm bg-white cursor-pointer p-3 ">36</button>
                         <button
-                            className="border-[1px] border-[#cccccc] text-[#474747] rounded-sm bg-white cursor-pointer p-3">39</button>
+                            className="border-[1px] border-[#cccccc] hover:bg-primary hover:text-white text-[#474747] rounded-sm bg-white cursor-pointer p-3 ">39</button>
                         <button
-                            className="border-[1px] border-[#cccccc] text-[#474747] rounded-sm bg-white cursor-pointer  p-3">40</button>
+                            className="border-[1px] border-[#cccccc] hover:bg-primary hover:text-white text-[#474747] rounded-sm bg-white cursor-pointer  p-3 ">40</button>
                         <button
-                            className="border-[1px] border-[#cccccc] text-[#474747] rounded-sm bg-white cursor-pointer p-3">42</button>
+                            className="border-[1px] border-[#cccccc] hover:bg-primary hover:text-white text-[#474747] rounded-sm bg-white cursor-pointer p-3 ">42</button>
                     </div>
                     <h5 className="text-[#8f8f8f] font-semibold pt-5 pl-2"> Cores </h5>
 
-                    <div className=" flex gap-4 p-4 m-5 pl-2">
+                    <div className  =" flex gap-4 p-4 m-5 pl-2"> 
                         <button className="rounded-full outline-2 outline-white cursor-pointer p-4 bg-[#6FEEFF]"></button>
                         <button className="rounded-full outline-2 outline-white cursor-pointer p-4 bg-[#C92071]"></button>
                         <button className="rounded-full outline-2 outline-white cursor-pointer p-4 bg-[#5E5E5E]"></button>
