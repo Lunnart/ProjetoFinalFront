@@ -10,7 +10,7 @@ const Header = () => {
                 <div className="text-white flex justify-around items-center my-[40px] mx-[30px]">
                     <img src={logo} alt="" className='' />
                     <form className="flex w-[40%]">
-                        <input type="text" id="text" name="Pesquisar" placeholder="Pesquisar produto..." className=' border-[1px] border-transparent rounded-l-lg text-light-gray bg-light-gray-3 w-[80%] h-12 p-3' />
+                        <input type="text" id="text" name="Pesquisar" placeholder="Pesquisar produto..." className=' border-[1px] border-transparent rounded-l-lg text-light-gray bg-light-gray-3 w-[80%] h-12 p-3 apperance-none' />
                         <button className="bg-light-gray-3  h-12 flex justify-end items-center w-20 p-5 rounded-r-lg">
                             <FaSearch color='gray' />
                         </button>
