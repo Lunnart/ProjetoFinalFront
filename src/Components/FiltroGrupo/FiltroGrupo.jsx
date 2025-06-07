@@ -8,7 +8,7 @@ const FiltroGrupo = () => {
         <h3 className="text-base font-semibold mb-2">Marca</h3>
         <div className="flex flex-col gap-2">
           <label className="flex items-center gap-2">
-            <input type="checkbox" className=" hover:bg-primary"/>
+            <input type="checkbox" className=" hover:bg-primary focus:ring-pink-300"/>
             Adidas
           </label>
           <label className="flex items-center gap-2">
